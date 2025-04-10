@@ -33,4 +33,5 @@
 1. 输入PKU，输出北京大学。
 1. 输入武汉纺织大学, 输出Wuhan Textile University.
 
-和BGE模型对比，BGE模型效果差很多。代码在`crosslingual-match.py`。
+和BGE模型对比，BGE模型效果差很多, "BAAI/bge-m3", "BAAI/bge-large-zh-V1.5"跨语言能力都不行, 相比之下 bge-m3更差一点。代码在`crosslingual-match.py`。
+![](./screenshots/crosslingual-match.bge.png)

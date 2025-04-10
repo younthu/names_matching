@@ -8,9 +8,11 @@ class UniversityMatcher:
     # BAAI/bge-large-zh-V1.5, 
     # BAAI/bge-m3
     # https://huggingface.co/BAAI/bge-large-zh-v1.5
-    def __init__(self, primary_keys_file: str, model_name: str = 'BAAI/bge-large-zh-V1.5'):
+    def __init__(self, primary_keys_file: str, model_name: str = 'BAAI/bge-large-zh-V1.5', parent_separator: str = '\n\n', child_separator: str = '\n'):
         # 加载预训练模型
         self.model = SentenceTransformer(model_name)
+        self.parent_separator = parent_separator
+        self.child_separator = child_separator
         
         # 读取并解析大学名称文件
         self.university_data = self._parse_university_file(primary_keys_file)
