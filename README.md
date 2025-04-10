@@ -31,3 +31,6 @@
 1. 可以输入剑桥大学，输出combridge university 
 1. 输入huazhong university of science and technology, 输出华中科技大学。 
 1. 输入PKU，输出北京大学。
+1. 输入武汉纺织大学, 输出Wuhan Textile University.
+
+和BGE模型对比，BGE模型效果差很多。代码在`crosslingual-match.py`。
