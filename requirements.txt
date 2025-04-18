@@ -1,4 +1,8 @@
 sentence-transformers
 scikit-learn
 numpy
-sentence_transformers
+sentence-transformers
+llama-index-vector-stores-milvus
+llama-index
+pymilvus
+pandas

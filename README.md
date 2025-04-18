@@ -1,4 +1,10 @@
 # Names Matching
+
+1. 同义词匹配
+1. 
+
+
+# Notes
 1. sentence-transformers做大学相似度计算效果不好，中文支持不好，"清华大学"没法归一化到Tsinghua University
     1. SentenceTransformer可以调用BGE M3.
     1. SentenceTransformer中文文档， https://www.aidoczh.com/sbert/docs/installation.html
