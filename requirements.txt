@@ -6,3 +6,5 @@ llama-index-vector-stores-milvus
 llama-index
 pymilvus
 pandas
+torch
+transformersfaiss-cpu
